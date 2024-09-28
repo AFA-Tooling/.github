@@ -1,0 +1,26 @@
+- label: "JIRA"
+  message: "$issuePrefix"
+  icon: "jira"
+  color: "blue"
+  url: "https://jira.company.com/browse/$issuePrefix"
+  when: "$issuePrefix"
+
+- label: "Type"
+  message: "$payload.pull_request.body.split('### Type of Change')[1]?.split('### Changes')?.match(/- \\[x\\].*/g)[0]?.match(/\\].*\\(/[0])?.slice(2,-2)"
+  color: "#FF00FF"
+  when: "$payload.pull_request.body.split('### Type of Change')[1]?.split('### Changes')[0]?.match(/- \\[x\\]/g)?.length"
+
+- label: "Checklist"
+  message: "Not Completed"
+  color: "red"
+  when: "$payload.pull_request.body.split('### Checklist')[1]?.split('### Screenshots/Video')[0]?.match(/- \\[\\s\\]/g)?.length"
+
+- label: "Checklist"
+  message: "Complete"
+  color: "green"
+  when: "!$payload.pull_request.body.split('### Checklist')[1]?.split('### Screenshots/Video')[0]?.match(/- \\[\\s\\]/g)?.length"
+
+- label: "Label"
+  message: "$labels"
+  color: "#FF00FF"
+  when: "$labels.includes('Feature')"
