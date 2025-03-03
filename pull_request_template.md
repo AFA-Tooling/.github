@@ -1,7 +1,7 @@
 ### Jira Ticket
 
 <!-- Replace the field marked <ticket-id> with your ticket id -->
-[Jira Ticket](https://dashbd.atlassian.net/browse/<ticket-id>)
+[Linear Ticket](https://linear.app/afa-tooling/issue/<ticket-id>)
 
 ### Description
 
@@ -30,7 +30,6 @@
 - [ ] My PR name matches the format: `[<ticket-id>] <brief-description-of-change>`
 - [ ] I have added doc-comments to all new functions ([JSDoc](https://jsdoc.app/) for JS and [Docstrings](https://peps.python.org/pep-0257/) for Python)
 - [ ] I have reviewed all of my code
-- [ ] My code only contains major changes related to my ticket
 
 ### Screenshots/Video
 
