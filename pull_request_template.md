@@ -1,7 +1,7 @@
-### Jira Ticket
+### Linear Ticket
 
 <!-- Replace the field marked <ticket-id> with your ticket id -->
-[Jira Ticket](https://dashbd.atlassian.net/browse/<ticket-id>)
+[Linear Ticket](https://linear.app/afa-tooling/issue/<ticket-id>)
 
 ### Description
 
