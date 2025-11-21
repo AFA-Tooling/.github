@@ -6,7 +6,7 @@ This is an organization dedicated towards the AFA Tooling Resources developed un
 
 1. __DO NOT PUSH TO DIRECTLY TO THE DEFAULT BRANCH__.
 2. Make sure you are added to this organization (contact Connor Bernard if needed).
-3. Make sure you are added to the organization [Linear](https://linear.app/afatooling) (contact Connor Bernard if needed).
+3. Make sure you are added to the organization [Linear](https://linear.app/afatooling) (contact Heidy Hernandez if needed).
 4. You may only commit to the default branch with [Pull Requests (PRs)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 5. All PRs should be associated with a Linear ticket in the respective project.
     - Your branch name should match the format: `<ticket-id>/<brief-description-of-change>`.  eg: `GV-16/create-project-readme`
